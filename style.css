@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.rectangle * {
+    width: 180px;
+    height: 30px;
+}
+
+#rectangleFinish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
